@@ -5,5 +5,7 @@ import "fmt"
 func main() {
 
 	a := "Atul Verma"
-	fmt.Println(a)
+	fmt.Println("%T", a, "  ", a)
+	fmt.Printf("%T", a)
+	fmt.Print("%T", a)
 }
